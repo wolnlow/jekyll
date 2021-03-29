@@ -31,7 +31,7 @@ url: "http://waypig.com" # the base hostname & protocol for your site, e.g. http
 author_info: <a href="http://waypig.com/">waypig</a>
 # Build settings
 theme: jekyll-theme-slate
-plugins:
+# plugins:
   - jekyll-feed
 
 # Exclude from processing.
