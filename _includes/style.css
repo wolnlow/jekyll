@@ -443,7 +443,8 @@ a.external:hover {
   clear: both;
 }
 .about-wrapper .aboutme h2 {
-  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 .about-wrapper .aboutme h2 a {
   font-size: 18px;
@@ -478,16 +479,6 @@ a.external:hover {
   background: -o-radial-gradient(top left, #5d3571, #38658c);
   background: -ms-radial-gradient(top left, #5d3571, #38658c);
   background: radial-gradient(to bottom right, #5d3571, #38658c);
-}
-#disqus_container {
-  font-size: 12px;
-}
-#disqus_container .share-con {
-  float: right;
-  margin-bottom: 20px;
-}
-#disqus_container a.comment {
-  font-size: 14px;
 }
 .prettyprint {
   background: #f7f3f7;
