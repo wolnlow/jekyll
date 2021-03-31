@@ -28,7 +28,7 @@ url: "http://waypig.com" # the base hostname & protocol for your site, e.g. http
 # github_username:  jekyll
 author_info: <a href="http://waypig.com/">waypig</a>
 # Build settings
-theme: jekyll-theme-slate
+theme: minima
 # plugins:
 #  - jekyll-feed
 
