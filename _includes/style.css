@@ -72,8 +72,7 @@ body {
 }
 ol,
 ul {
-  list-style: disc;
-  color: #fff;
+  list-style: none;
 }
 table {
   border-collapse: separate;
@@ -125,9 +124,6 @@ audio:not([controls]),
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-hr {
-  margin: 20px 0 20px 0;
 }
 *:before,
 *:after {
@@ -340,7 +336,7 @@ a.external:hover {
   margin-bottom: 15px;
 }
 .post-wrapper p {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   line-height: 1.8em;
 }
 .post-wrapper code {
@@ -447,8 +443,7 @@ a.external:hover {
   clear: both;
 }
 .about-wrapper .aboutme h2 {
-  margin: 20px 0 10px 0;
-  font-weight: bold;
+  margin-bottom: 20px;
 }
 .about-wrapper .aboutme h2 a {
   font-size: 18px;
@@ -483,6 +478,16 @@ a.external:hover {
   background: -o-radial-gradient(top left, #5d3571, #38658c);
   background: -ms-radial-gradient(top left, #5d3571, #38658c);
   background: radial-gradient(to bottom right, #5d3571, #38658c);
+}
+#disqus_container {
+  font-size: 12px;
+}
+#disqus_container .share-con {
+  float: right;
+  margin-bottom: 20px;
+}
+#disqus_container a.comment {
+  font-size: 14px;
 }
 .prettyprint {
   background: #f7f3f7;
