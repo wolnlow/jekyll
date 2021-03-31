@@ -72,7 +72,8 @@ body {
 }
 ol,
 ul {
-  list-style: none;
+  list-style: disc;
+  color: #fff;
 }
 table {
   border-collapse: separate;
