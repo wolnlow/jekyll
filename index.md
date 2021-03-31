@@ -17,6 +17,7 @@ layout: home
 <a href="https://www.bilibili.com" target="_blank"><img src="https://static.hdslb.com/images/favicon.ico" alt="" width="22"/></a>
       </div>
       <div id="particles-js"></div>
+      
     </div>
      <div class="index-content">
       <ul class="artical-list">
