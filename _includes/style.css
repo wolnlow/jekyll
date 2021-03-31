@@ -446,8 +446,7 @@ a.external:hover {
   clear: both;
 }
 .about-wrapper .aboutme h2 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin: 20px 0 10px 0;
   font-weight: bold;
 }
 .about-wrapper .aboutme h2 a {
