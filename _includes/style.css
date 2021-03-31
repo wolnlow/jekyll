@@ -424,7 +424,7 @@ a.external:hover {
   background: #7e96a9;
   width: 900px;
   margin: 0 auto;
-  padding: 30px 60px;
+  padding: 10px 60px;
 }
 @media screen and (max-width: 767px) {
   .about-wrapper {
@@ -444,7 +444,7 @@ a.external:hover {
   clear: both;
 }
 .about-wrapper .aboutme h2 {
-  margin: 20px 0 10px 0;
+  margin: 30px 0 10px 0;
   font-weight: bold;
 }
 .about-wrapper .aboutme h2 a {
