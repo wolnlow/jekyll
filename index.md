@@ -4,17 +4,19 @@
 
 layout: home
 ---
-
+{% if site.cdn.jsdelivr.enabled %}
+{% assign assets_base_url = "https://cdn.jsdelivr.net/gh/wolnlow/jekyll" %}
+{% endif %}
 <body>
   <div class="index-wrapper">
     <div class="aside">
       <div class="info-card">
         <h1>waypig</h1>
         <h2>一只行走的猪</h2>
-<a href="https://www.weibo.com/" target="_blank"><img src="https://www.weibo.com/favicon.ico" alt="" width="22"/></a>
-<a href="https://www.zhihu.com/" target="_blank"><img src="https://static.zhihu.com/static/favicon.ico" alt="" width="22"/></a>
-<a href="https://www.v2ex.com" target="_blank"><img src="https://www.v2ex.com/static/img/icon_rayps_64.png" alt="" width="22"/></a>
-<a href="https://www.bilibili.com" target="_blank"><img src="https://static.hdslb.com/images/favicon.ico" alt="" width="22"/></a>
+<a href="https://www.weibo.com/" target="_blank"><img src="{{ assets_base_url }}/js/weibo.png" alt="" width="22"/></a>
+<a href="https://www.zhihu.com/" target="_blank"><img src="{{ assets_base_url }}/js/zhihu.png" alt="" width="22"/></a>
+<a href="https://www.v2ex.com" target="_blank"><img src="{{ assets_base_url }}/js/v2ex.png" alt="" width="22"/></a>
+<a href="https://www.bilibili.com" target="_blank"><img src="{{ assets_base_url }}/js/bilibili.png" alt="" width="22"/></a>
       </div>
       <div id="particles-js"></div>
       
